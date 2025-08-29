@@ -25,7 +25,6 @@ function Navbar() {
           <div className="font-bold text-lg text-green-700 ml-2">AgroMart</div>
         </div>
 
-        {/* Desktop Nav */}
         <nav className="hidden sm:flex gap-4">
           <NavLink
             to="/"
@@ -47,7 +46,6 @@ function Navbar() {
           </NavLink>
         </nav>
 
-        {/* Search + Cart (desktop) */}
         <div className="hidden sm:flex items-center gap-3">
           <input
             className="border rounded-full px-3 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-green-600/30"
@@ -58,7 +56,6 @@ function Navbar() {
           </button>
         </div>
 
-        {/* Hamburger (mobile) */}
         <button
           className="sm:hidden text-2xl text-green-700"
           onClick={() => setIsOpen(!isOpen)}
@@ -67,7 +64,6 @@ function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
       {isOpen && (
         <div className="sm:hidden bg-white shadow-md border-t">
           <nav className="flex flex-col p-4 space-y-3">
@@ -93,7 +89,6 @@ function Navbar() {
               Contact
             </NavLink>
 
-            {/* Search + Cart (mobile) */}
             <input
               className="border rounded-full px-3 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-green-600/30"
               placeholder="Search products..."

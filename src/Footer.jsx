@@ -3,7 +3,7 @@ import { FaPhone, FaEnvelope, FaHome, FaFacebookF, FaYoutube, FaWhatsapp, FaArro
 export default function Footer() {
   return (
     <footer className="bg-white border-t border-green-600 shadow-inner text-center py-6 relative">
-      {/* Contact Info */}
+  
       <div className="flex flex-col md:flex-row justify-center items-center gap-20 text-green-700 text-lg font-bold">
         <p className="flex items-center">
           <FaPhone className="mr-2" /> 01868668422
@@ -13,14 +13,12 @@ export default function Footer() {
         </p>
       </div>
 
-      {/* Address */}
       <div className="mt-3 text-green-600">
         <p className="flex items-center justify-center">
           <FaHome className="mr-2" /> THENGAMARA, রংপুর রোড, বগুড়া-5800
         </p>
       </div>
 
-      {/* Social Icons */}
       <div className="flex justify-center gap-6 mt-6 ">
         <a
           href="#"
@@ -42,7 +40,6 @@ export default function Footer() {
         </a>
       </div>
 
-      {/* Copyright */}
       <div className="mt-6 text-green-700 text-sm">
         <p>কপিরাইট © 2025 ARNOB SARKER</p>
         <p className="mt-1">
@@ -50,7 +47,6 @@ export default function Footer() {
         </p>
       </div>
 
-      {/* Floating Buttons */}
       <a
         href="#top"
         className="fixed bottom-20 left-4 bg-green-600 text-white p-3 rounded-md shadow-lg hover:bg-green-700 transition"

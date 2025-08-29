@@ -11,17 +11,15 @@ function Hero() {
 
   const [current, setCurrent] = useState(0);
 
-  // Auto slide every 3s
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % slides.length);
-    }, 3000);
+    }, 2000);
     return () => clearInterval(interval);
   }, [slides.length]);
 
   return (
     <section className="mx-auto max-w-7xl px-4 py-12 grid md:grid-cols-2 gap-8 items-center">
-      {/* Left side */}
       <div>
         <h1 className="text-4xl font-bold tracking-tight"> 
           Modern Agro Machinery
@@ -38,7 +36,6 @@ function Hero() {
         </a>
       </div>
 
-      {/* Right side: Image slider */}
       <div className="relative w-full overflow-hidden rounded-2xl shadow-sm">
         <div
           className="flex transition-transform duration-700 ease-in-out"
@@ -54,8 +51,7 @@ function Hero() {
           ))}
         </div>
 
-        {/* Dots navigation */}
-        <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 flex gap-2">
+        <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex gap-">
           {slides.map((_, index) => (
             <button
               key={index}

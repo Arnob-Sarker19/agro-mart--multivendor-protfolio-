@@ -3,16 +3,13 @@ import { MapPin, Phone, Mail } from "lucide-react";
 export default function Contact() {
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Hero Section */}
       <div className="bg-green-600 text-white py-12 text-center">
         <h1 className="text-3xl font-bold">যোগাযোগ করুন</h1>
         <p className="mt-2 text-sm">We are always here to help you with agro machinery solutions.</p>
       </div>
 
-      {/* Contact Info + Form */}
       <div className="max-w-7xl mx-auto px-4 py-12 grid md:grid-cols-2 gap-10">
         
-        {/* Left: Contact Info */}
         <div>
           <h2 className="text-xl font-semibold mb-4">যোগাযোগের তথ্য</h2>
           <ul className="space-y-4 text-gray-700">
@@ -43,7 +40,6 @@ export default function Contact() {
           </div>
         </div>
 
-        {/* Right: Contact Form */}
         <div>
           <h2 className="text-xl font-semibold mb-4">বার্তা পাঠান</h2>
           <form className="space-y-4">
