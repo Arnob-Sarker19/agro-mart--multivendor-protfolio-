@@ -21,22 +21,22 @@ export default function Footer() {
       </div>
 
       {/* Social Icons */}
-      <div className="flex justify-center gap-6 mt-6">
+      <div className="flex justify-center gap-6 mt-6 ">
         <a
           href="#"
-          className="w-12 h-12 flex items-center justify-center bg-white rounded-xl shadow-md hover:scale-110 transition transform duration-300 text-blue-600"
+          className="w-12 h-12 flex items-center justify-center bg-white rounded-xl shadow-md hover:scale-110 transition transform duration-300 text-blue-600 hover:bg-blue-300 "
         >
           <FaFacebookF className="text-xl" />
         </a>
         <a
           href="#"
-          className="w-12 h-12 flex items-center justify-center bg-white rounded-xl shadow-md hover:scale-110 transition transform duration-300 text-red-600"
+          className="w-12 h-12 flex items-center justify-center bg-white rounded-xl shadow-md hover:scale-110 transition transform duration-300 text-red-600 hover:bg-red-300 "
         >
           <FaYoutube className="text-xl" />
         </a>
         <a
           href="#"
-          className="w-12 h-12 flex items-center justify-center bg-white rounded-xl shadow-md hover:scale-110 transition transform duration-300 text-green-600"
+          className="w-12 h-12 flex items-center justify-center bg-white rounded-xl shadow-md hover:scale-110 transition transform duration-300 text-green-600 hover:bg-green-300 "
         >
           <FaWhatsapp className="text-xl" />
         </a>
